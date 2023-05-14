@@ -1,0 +1,20 @@
+h2 {
+  text-align: center;
+  color: darkblue;
+  font-family: Verdana;
+}
+
+td {
+  color: rgb(0, 94, 255);
+}
+i {
+  color: coral;
+}
+body {
+  color: white;
+  background-color: black;
+}
+
+img {
+  align-content: center;
+}
