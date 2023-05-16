@@ -14,4 +14,11 @@ function savedCount() {
     console.log("the Count Saved is " + savedCount)
     
 }
-  
+
+
+function loggedTest() {
+    	let userName = "Shiv"
+    	let greetUser = "Hi " + userName + ", Welcome to Resume"
+	console.log(greetUser)
+
+}
