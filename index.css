@@ -1,20 +1,64 @@
-h2 {
-  text-align: center;
-  color: darkblue;
-  font-family: Verdana;
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+@import url('https://fonts.googleapis.com/css?family=Belanosima');
+
+body{
+  padding: 40px;
+  background-color: #c8925c;  
+}
+
+h1 {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Animation */
+h1 {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 300px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
 }
 
 td {
   color: rgb(0, 94, 255);
 }
 i {
-  color: coral;
-}
-body {
-  color: white;
-  background-color: black;
+  color: rgb(29, 0, 103);
 }
 
 img {
   align-content: center;
+}
+
+.skill{
+  background-color: aliceblue;
+}
+
+html{
+  scroll-snap-type: y  mandatory;
+
+}
+
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+  font-family: Belanosima;
 }

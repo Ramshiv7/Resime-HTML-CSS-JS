@@ -1,24 +1,28 @@
-
-count = 0 
-likedCount = document.getElementById("count")
+count = 0;
+likedCount = document.getElementById("count");
 
 function increment() {
-    count = count + 1;
-    likedCount = document.getElementById("count")
-    likedCount.innerText = count
-    console.log("the button was clicked " + count + " times")
-}                                                                                           
+  count = count + 1;
+  likedCount = document.getElementById("count");
+  likedCount.innerText = count;
+  console.log("the button was clicked " + count + " times");
+}
 
 function savedCount() {
-    savedCount = count 
-    console.log("the Count Saved is " + savedCount)
-    
+  savedCount = count;
+  console.log("the Count Saved is " + savedCount);
 }
-
 
 function loggedTest() {
-    	let userName = "Shiv"
-    	let greetUser = "Hi " + userName + ", Welcome to Resume"
-	console.log(greetUser)
-
+  let userName = "Shiv";
+  let greetUser = "Hi " + userName + ", Welcome to Resume";
+  console.log(greetUser);
 }
+
+myFunc = () => {
+  console.log("Es6 Function Definition");
+};
+
+myFunc();
+
+document.getelement
